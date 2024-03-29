@@ -21,6 +21,7 @@ fhEVM is a technology that enables confidential smart contracts on the Ethereum 
 - [Inco](https://www.inco.org/) - Universal confidentiality layer of web3, powered by FHE and secured by Ethereum.
 - [Octra](https://twitter.com/octra) - A FHE blockchain network with support for isolated execution environments.
 - [Mind Network](https://mindnetwork.io/) - The Zero Trust Layer of Web3.
+- [Sunscreen](https://sunscreen.tech/) - Privacy engine of the new web.
 
 ## Libraries
 
@@ -60,6 +61,7 @@ fhEVM is a technology that enables confidential smart contracts on the Ethereum 
 - [Confidential ERC-20 Tokens Using Homomorphic Encryption and the fhEVM](https://www.zama.ai/post/confidential-erc-20-tokens-using-homomorphic-encryption)
 - [Onchain Blind Auctions Using Homomorphic Encryption and the fhEVM](https://www.zama.ai/post/on-chain-blind-auctions-using-homomorphic-encryption)
 - [Exploring Zama](https://furkanakal.com/exploring-zama)
+- [An Intro to Fully Homomorphic Encryption for Engineers](https://blog.sunscreen.tech/an-intro-to-fully-homomorphic-encryption-for-engineers/)
 - [Fully Homomorphic Encryption, the Holy Grail of Computing, by Messari](https://messari.io/report/fully-homomorphic-encryption-the-holy-grail-of-computing)
 - [ZKPs, FHE, MPC: Managing Private State in Blockchains, by Alliance](https://medium.com/alliancedao/zkps-fhe-mpc-managing-private-state-in-blockchains-17cc3661007d)
 - [The Dawn of On-Chain FHE, by Kyle Samani](https://multicoin.capital/2023/09/26/the-dawn-of-on-chain-fhe/)
