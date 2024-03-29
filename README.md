@@ -12,6 +12,14 @@ fhEVM is a technology that enables confidential smart contracts on the Ethereum 
 - **Composability and data availability on-chain**, with states updated while remaining encrypted at all times.
 - **No impact on existing dapps and state**, allowing encrypted state to co-exist alongside the public one without affecting existing dapps.
 
+**Mechanism behind fhEVM:**
+- Everything is encrypted under a single global FHE public key.
+- The global secret key is generated using a threshold protocol (parts of the secret key are distributed among validators).
+- The inputs are encrypted using the FHE public key.
+- Computations on encrypted data are done locally by validators.
+- Values can be decrypted by validators using the threshold protocol.
+- Values can also be re-encrypted (without decryption) under another public key (let’s denote it “public key a”) using a threshold protocol. Re-encrypted values can be decrypted by the public key owner.
+
 ## Projects Using FHE x Blockchain or fhEVM
 
 - [Zama](https://www.zama.ai/) - An open source cryptography company building state-of-the-art FHE solutions for blockchain and AI.
@@ -56,9 +64,11 @@ fhEVM is a technology that enables confidential smart contracts on the Ethereum 
 
 ## Resources
 
+- [Introduction to FHE: What is FHE, how does FHE work, how is it connected to ZK and MPC, what are the FHE use cases in and outside of the blockchain, etc.](https://taiko.mirror.xyz/2O9rJeB-1PalQeYQlZkn4vgRNr_PgzaO8TWUOM5wf3M)
 - [How to write confidential smart contracts using Zama's fhEVM - Tutorial](https://www.youtube.com/watch?v=1FtbyHZwNX4)
 - [Awesome Homomorphic Encryption](https://github.com/jonaschn/awesome-he)
 - [Confidential ERC-20 Tokens Using Homomorphic Encryption and the fhEVM](https://www.zama.ai/post/confidential-erc-20-tokens-using-homomorphic-encryption)
+- [Morten Dahl - Homomorphic Encryption in the EVM](https://www.youtube.com/watch?v=eivfVykPP8U)
 - [Onchain Blind Auctions Using Homomorphic Encryption and the fhEVM](https://www.zama.ai/post/on-chain-blind-auctions-using-homomorphic-encryption)
 - [Exploring Zama](https://furkanakal.com/exploring-zama)
 - [An Intro to Fully Homomorphic Encryption for Engineers](https://blog.sunscreen.tech/an-intro-to-fully-homomorphic-encryption-for-engineers/)
