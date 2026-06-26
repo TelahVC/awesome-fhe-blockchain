@@ -23,7 +23,7 @@ fhEVM is a technology that enables confidential smart contracts on the Ethereum 
 ## Projects Using FHE x Blockchain or fhEVM
 
 - [Zama](https://www.zama.ai/) - An open source cryptography company building state-of-the-art FHE solutions for blockchain and AI.
-- [Fhenix](https://www.fhenix.io/) - The first confidential L2 powered by fully homomorphic encryption.
+- [Fhenix](https://www.fhenix.io/) - An R&D-driven Ethereum infrastructure company delivering a full-stack confidential compute tooling suite.
 - [Shibarium](https://shibarium.shib.io/fr) - Memecoin chain that integrated Zama technology.
 - [PrivaSea](https://www.privasea.ai/) - The world's first FHEML inference network.
 - [Inco](https://www.inco.org/) - Universal confidentiality layer of web3, powered by FHE and secured by Ethereum.
