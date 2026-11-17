@@ -30,6 +30,7 @@ fhEVM is a technology that enables confidential smart contracts on the Ethereum 
 - [Octra](https://twitter.com/octra) - A FHE blockchain network with support for isolated execution environments.
 - [Mind Network](https://mindnetwork.io/) - The Zero Trust Layer of Web3.
 - [Sunscreen](https://sunscreen.tech/) - Privacy engine of the new web.
+- [Orochi Network](https://orochi.network/) - Verifiable Data Infrastructure for enterprise systems that ensures data integrity and privacy using ZKP, FHE, and TEE.
 
 ## Libraries
 
